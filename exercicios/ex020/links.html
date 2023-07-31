@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: aquamarine;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: pink;
+        }
+
+        a::before{
+            content: ' ♞';
+
+        }
+
+        a::after{
+            content: ' ♞';
+    
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <a href="https://github.com/vector5826" target="_blank"><li>GitHub</li></a>
+        <a href="https://www.youtube.com/@CursoemVideo" target="_blank"><li>Youtube</li></a>
+        <a href="https://www.cursoemvideo.com" target="_blank"><li>Curso em video</li></a>
+    </ul>
+</body>
+</html>
