@@ -26,6 +26,15 @@
         text-align: center;
     }
 
+    .box{
+        width: 160px;
+        padding: 5px;
+        margin: 17px;
+        border: 1px solid white;
+        display: inline-block;
+
+    }
+
     header > h1{
         padding-top: 50px;
         font-variant: small-caps;
