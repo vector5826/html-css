@@ -79,6 +79,7 @@
         background-color: rgba(7, 7, 7, 0.452);
         color: white;
         box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+        /*Efeito Paralax*/
         background-size: cover;
         background-attachment: fixed;
         
